@@ -31,9 +31,9 @@ GameLiftClient.DescribeGameSessionsAsync(request);
 GameLiftClient.CreateGameSessionAsync(request);
 
 GameLiftClient.CreatePlayerSessionAsync(request);
-```
+```     
+
 
 The Elevator Bossa Nova - Benjamin Tissot  
-
 From Music: bensound.com
 
