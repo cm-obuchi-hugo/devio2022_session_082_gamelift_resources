@@ -23,7 +23,16 @@ https://github.com/VeriorPies/ParrelSync
 &nbsp;  
 &nbsp;  
 
+## GameLiftServerLauncherについて  
+GameLiftServerLauncherで``dotnet restore``を実行する前に、GameLiftServerLauncher.csprojファイルにパッケージ参照を追加することが必要です：
+```javascript
+  <ItemGroup>
+    <PackageReference Include="devio.amazon.gamelift.server.lib.collection" Version="0.0.1" />
+  </ItemGroup>
+```
 
+&nbsp;  
+&nbsp;  
 ## メインの関数
 ```csharp  
 GameLiftClient.DescribeGameSessionsAsync(request);
